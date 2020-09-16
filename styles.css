@@ -1,0 +1,76 @@
+
+.bg {
+  background-image: url('images/pic_1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.schooled {
+  font-family: 'Source Sans Pro';
+  padding: 168px 0 0 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 120px;
+  line-height: 151px;
+  top: calc(50% - 151px/2 - 251px);
+  color: #FFFFFF;
+}
+
+.learn {
+  padding: 168px 0 0 0;
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+  .schooled {
+    font-size: 3.5rem;
+    font-weight: 200;
+  }
+}
+
+.navbar-brand {
+  margin: auto;
+}
+
+.register {
+  background: #C271FF;
+  border-radius: 22px;
+  border-color: #C271FF;
+  filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  }
+
+
+.register:hover {
+	background-color: rgb(216, 166, 255);
+  border-color: transparent;
+  opacity: 0.9;
+}
+
+
+.learntext {
+  color: #c271ff;
+  height: 40px;
+  left: 41.94%;
+  right: 39.93%;
+  top: calc(50% - 40px/2 + 104.5px);
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.card {
+  background-color: transparent;
+  border: transparent;
+}
+
+.card-body {
+	padding: 0;
+}
