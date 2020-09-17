@@ -45,15 +45,15 @@
   }
 
   .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
-  	background-color: rgb(127, 75, 167);
-  	border-color: #C271FF;
+    background-color: rgb(127, 75, 167);
+    border-color: #C271FF;
   }
 
-.register:hover, .register:focus, .register:active, .register:checked {
-	background-color: rgb(216, 166, 255);
+  .register:hover, .register:focus, .register:active, .register:checked {
+  background-color: rgb(216, 166, 255);
   border-color: transparent;
   opacity: 0.9;
-}
+  }
 
 
 .learntext {
@@ -77,9 +77,4 @@
 
 .card-body {
 	padding: 0;
-}
-
-
-.purple-color {
-  background-color: #C271FF;
 }
