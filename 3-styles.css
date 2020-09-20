@@ -7,12 +7,15 @@
 }
 
 
+
+
 section {
   padding: 80px 0 80px 0;
 }
 
 
 .dark-theme-complete {
+  /*color: white !important;*/
   background-color: black;
 }
 

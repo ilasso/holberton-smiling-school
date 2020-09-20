@@ -6,14 +6,8 @@
   background-size: cover;
 }
 
-
 section {
   padding: 80px 0 80px 0;
-}
-
-
-.dark-theme-complete {
-  background-color: black;
 }
 
 .schooled {
@@ -109,11 +103,11 @@ section {
 
 
 .popularvideos .carousel-control-prev-icon {
-	background-image: url('images/arrow_black_left.png');
+	background-image: url(./images/arrow_black_left.png);
 }
 
 .popularvideos .carousel-control-next-icon {
-	background-image: url('images/arrow_black_right.png');
+	background-image: url(./images/arrow_black_right.png);
 }
 
 .play {
