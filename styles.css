@@ -4,13 +4,21 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 0 0 0 0;
 }
 
+
+.pricing {
+  background-image: url('images/pic_2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 0 0 0;
+}
 
 section {
   padding: 80px 0 80px 0;
 }
-
 
 .dark-theme-complete {
   background-color: black;
@@ -25,6 +33,10 @@ section {
   line-height: 151px;
   top: calc(50% - 151px/2 - 251px);
   color: #FFFFFF;
+}
+
+.whatis {
+    padding: 7rem 0 7rem 0;
 }
 
 .learn {
