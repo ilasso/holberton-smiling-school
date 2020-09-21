@@ -92,6 +92,10 @@ section {
   text-align: center;
 }
 
+.navpurple{
+    color: #c271ff;
+}
+
 .card {
   background-color: transparent;
   border: transparent;
@@ -295,4 +299,22 @@ section {
 }
 .social-link > svg {
   fill: white;
+}
+
+
+.table, td, th {
+  border-bottom: 1px solid gray;
+}
+.table, tr:last-child td {
+  border-bottom: 1px solid transparent;
+}
+
+.table thead th {
+  border-bottom: 2px solid transparent;
+}
+.table td, .table th {
+  border-top: 1px solid transparent;
+}
+.table img {
+  max-width: 80px;
 }
