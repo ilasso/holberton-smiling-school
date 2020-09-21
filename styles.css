@@ -268,3 +268,19 @@ section {
       visibility: visible;
   }
 }
+
+
+.social-link {
+  margin: 0 15px 0 15px;
+}
+
+.footer .list-inline li {
+  display:inline;
+
+}
+.social-links-div {
+  text-align: right;
+}
+.social-link > svg {
+  fill: white;
+}
