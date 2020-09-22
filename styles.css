@@ -10,14 +10,18 @@
 
 .pricing {
   background-image: url('images/pic_2.jpg');
-  background-position: center;
+  background-position:center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   padding: 0 0 0 0;
 }
 
 section {
   padding: 80px 0 80px 0;
+}
+
+.pricesgrid{
+
 }
 
 .dark-theme-complete {
@@ -47,6 +51,12 @@ section {
   .schooled {
     font-size: 3.5rem;
     font-weight: 200;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+  h1, h2,.register {
+    font-size: 0.9rem;
   }
 }
 
@@ -301,6 +311,24 @@ section {
   fill: white;
 }
 
+@media (min-width: 200px) and (max-width: 575px) {
+
+  .footer .brand {
+    text-align: center !important;
+  }
+  .footer .social {
+    text-align: center !important;
+  }
+
+}
+
+/*.table, td, th {
+  border-bottom: 1px solid gray;
+}
+
+.table, tr:last-child td {
+  border-bottom: 1px solid transparent;
+}
 
 .table, td, th {
   border-bottom: 1px solid gray;
@@ -315,6 +343,7 @@ section {
 .table td, .table th {
   border-top: 1px solid transparent;
 }
-.table img {
+.table {
   max-width: 80px;
 }
+*/
