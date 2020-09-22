@@ -5,8 +5,31 @@ In this project, we will implement 3 web pages with Bootstrap. We will use all H
 
 We won’t have a lot of instruction, we are free to implement it the way that you want - the objective is simple: Have fully functional web pages that look the same as the designer file.
 
-Here the final result:
-![](images%202/example.jpg)
+# *Here the final result:*
+
+For Desktop:
+
+![Desktop Landing](FinalScrens/Desktop/01_SMILESCHOOL_LANDING_desktop@2x.png)
+
+![Desktop Pricing](FinalScrens/Desktop/02_SMILESCHOOL_PRICING_desktop@2x.png)
+
+![Desktop Cources](FinalScrens/Desktop/03_SMILESCHOOL_COURSES_desktop@2x.png)
+
+For Tablet:
+
+![Tablet Landing](FinalScrens/Tablet/01_SMILESCHOOL_LANDING_tablet@2x.png)
+
+![Tablet Pricing](FinalScrens/Tablet/02_SMILESCHOOL_PRICING_tablet@2x.png)
+
+![Tablet Cources](FinalScrens/Tablet/03_SMILESCHOOL_COURSES_tablet@2x.png)
+
+For Mobile:
+
+![Mobile Landing](FinalScrens/Mobile/01_SMILESCHOOL_LANDING_mobile@2x.png)
+
+![Mobile Pricing](FinalScrens/Mobile/02_SMILESCHOOL_PRICING_mobile@2x.png)
+
+![Mobile Cources](FinalScrens/Mobile/03_SMILESCHOOL_COURSES_mobile@2x.png)
 
 ## Requirements
 
