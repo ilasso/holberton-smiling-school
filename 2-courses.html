@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="holberton_school-icon/style.css">
+    <title>SmileSchool Pricing</title>
+</head>
+
+<body>
+  <header>
+    <!-- HERO SECTION -->
+    <section class="courses">
+        <div class="container-md">
+            <!-- NAVBAR -->
+            <nav class="navbar navbar-expand-sm navbar-dark pt-4">
+                <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand">
+                    <div class="row">
+                        <div class="col-sm-2 col-12 text-center">
+                            <img src="./images/smile_off.png" height="30" alt="">
+                        </div>
+                        <div class="col-sm-10 col-12 text-center">
+                            <img src="./images/logo.png" height="30" alt="">
+                        </div>
+                    </div>
+
+                </a>
+                <div id="my-nav" class="collapse navbar-collapse text-center show">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">COURSES<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PRICING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LOGIN</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="text-center text-light d-none d-sm-block d-md-block">
+                <h2 class="pb-5 cooper_title text-light">&lsaquo;&lsaquo; Don't cry because it's over.<br><span
+                        class="learntext">Smile</span> because it happened. &rsaquo;&rsaquo;</h2>
+            </div>
+        </div>
+    </section>
+
+  </header>
+  <main>
+    <section class="purple_theme filter_section">
+     <div class="container-md">
+         <div class="row">
+             <div class="col-md-4 col-sm-12 col-12">
+                 <span class="holberton_school-icon-search_1 icon_search"></span>
+                 <label for="search">KEYWORDS</label>
+                 <input class="form-control" id="search" type="text" placeholder="      Search by Keywords">
+             </div>
+             <div class="col-md-4 col-sm-6 col-12">
+                 <span class="holberton_school-icon-arrow_5 icon_select"></span>
+                 <label for="topic">TOPIC</label>
+                 <select class="form-control" id="topics">
+                     <option value="nov">Novice</option>
+                     <option value="inter">Intermediate</option>
+                     <option value="expert">Expert</option>
+                 </select>
+             </div>
+             <div class="col-md-4 col-sm-6 col-12">
+                 <span class="holberton_school-icon-arrow_5 icon_select"></span>
+                 <label for="sort">SORT BY</label>
+                 <select class="form-control" id="sort">
+                     <option value="most_pop">Most Popular</option>
+                     <option value="most_rect">Most Recent</option>
+                     <option value="most_views">Most Viewed</option>
+                 </select>
+
+             </div>
+         </div>
+     </div>
+    </section>
+    <!-- COURSES SECTION -->
+    <section>
+        <div class="container-md">
+            <label for="cont_videos" class="text-secondary mb-5">11 videos</label>
+            <div class="row" id="cont_videos">
+                <div class="col-md-3 col-sm-4 col-12 mb-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="">
+                                <a class="play">
+                                    <img class="img-fluid" src="./images/thumbnail_4.jpg"
+                                        alt="" />
+                                </a>
+                            </div>
+                            <h5 class="card-title font-weight-bold">Diagonal Smile</h5>
+                            <p class="card-text">
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                            </p>
+                            <!-- VIDEO REVIEWER -->
+                            <div class="row mb-3">
+                                <div class="col-3 user_review">
+                                    <img class="rounded-circle img-fluid " src="./images/profile_1.jpg" />
+                                </div>
+                                <div class="col-9 d-lg-flex justify-content-lg-start align-items-lg-center">
+                                    <span class="highlight_text1 font-weight-bold">Phillip Massey</span>
+                                </div>
+                            </div>
+                            <!-- VIDEO CALIFICATION -->
+                            <div class="row text-center">
+                                <div class="col-7">
+                                    <div class="d-flex justify-content-lg-center">
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_off.png" />
+                                    </div>
+
+                                </div>
+                                <div class="col-5">
+                                    <span class="highlight_text1 font-weight-bold">8 min</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-12 mb-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="">
+                                <a class="play" >
+                                    <img class="img-fluid" src="./images/thumbnail_3.jpg"
+                                        alt="" />
+                                </a>
+                            </div>
+                            <h5 class="card-title font-weight-bold">Sad Smile</h5>
+                            <p class="card-text">
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                            </p>
+                            <!-- VIDEO REVIEWER -->
+                            <div class="row mb-3">
+                                <div class="col-3 user_review">
+                                    <img class="rounded-circle img-fluid " src="./images/profile_1.jpg" />
+                                </div>
+                                <div class="col-9 d-lg-flex justify-content-lg-start align-items-lg-center">
+                                    <span class="highlight_text1 font-weight-bold">Phillip Massey</span>
+                                </div>
+                            </div>
+                            <!-- VIDEO CALIFICATION -->
+                            <div class="row text-center">
+                                <div class="col-7">
+                                    <div class="d-flex justify-content-lg-center">
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_off.png" />
+                                    </div>
+
+                                </div>
+                                <div class="col-5">
+                                    <span class="highlight_text1 font-weight-bold">8 min</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-12 mb-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="">
+                                <a class="play">
+                                    <img class="img-fluid" src="./images/thumbnail_1.jpg"
+                                        alt="" />
+                                </a>
+                            </div>
+                            <h5 class="card-title font-weight-bold">Natural Smile</h5>
+                            <p class="card-text">
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                            </p>
+                            <!-- VIDEO REVIEWER -->
+                            <div class="row mb-3">
+                                <div class="col-3 user_review">
+                                    <img class="rounded-circle img-fluid " src="./images/profile_1.jpg" />
+                                </div>
+                                <div class="col-9 d-lg-flex justify-content-lg-start align-items-lg-center">
+                                    <span class="highlight_text1 font-weight-bold">Phillip Massey</span>
+                                </div>
+                            </div>
+                            <!-- VIDEO CALIFICATION -->
+                            <div class="row text-center">
+                                <div class="col-7">
+                                    <div class="d-flex justify-content-lg-center">
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_off.png" />
+                                    </div>
+
+                                </div>
+                                <div class="col-5">
+                                    <span class="highlight_text1 font-weight-bold">8 min</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-12 mb-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="">
+                                <a class="play">
+                                    <img class="img-fluid" src="./images/thumbnail_2.jpg"
+                                        alt="" />
+                                </a>
+                            </div>
+                            <h5 class="card-title font-weight-bold">Happy Smile</h5>
+                            <p class="card-text"></p>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                            </p>
+                            <!-- VIDEO REVIEWER -->
+                            <div class="row mb-3">
+                                <div class="col-3 user_review">
+                                    <img class="rounded-circle img-fluid " src="./images/profile_1.jpg" />
+                                </div>
+                                <div class="col-9 d-lg-flex justify-content-lg-start align-items-lg-center">
+                                    <span class="highlight_text1 font-weight-bold">Phillip Massey</span>
+                                </div>
+                            </div>
+                            <!-- VIDEO CALIFICATION -->
+                            <div class="row text-center">
+                                <div class="col-7">
+                                    <div class="d-flex justify-content-lg-center">
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_off.png" />
+                                    </div>
+
+                                </div>
+                                <div class="col-5">
+                                    <span class="highlight_text1 font-weight-bold">8 min</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-12 mb-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="">
+                                <a class="play">
+                                    <img class="img-fluid" src="./images/thumbnail_2.jpg"
+                                        alt="" />
+                                </a>
+                            </div>
+                            <h5 class="card-title font-weight-bold">Happy Smile</h5>
+                            <p class="card-text"></p>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                            </p>
+                            <!-- VIDEO REVIEWER -->
+                            <div class="row mb-3">
+                                <div class="col-3 user_review">
+                                    <img class="rounded-circle img-fluid " src="./images/profile_1.jpg" />
+                                </div>
+                                <div class="col-9 d-lg-flex justify-content-lg-start align-items-lg-center">
+                                    <span class="highlight_text1 font-weight-bold">Phillip Massey</span>
+                                </div>
+                            </div>
+                            <!-- VIDEO CALIFICATION -->
+                            <div class="row text-center">
+                                <div class="col-7">
+                                    <div class="d-flex justify-content-lg-center">
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_off.png" />
+                                    </div>
+
+                                </div>
+                                <div class="col-5">
+                                    <span class="highlight_text1 font-weight-bold">8 min</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-12 mb-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="">
+                                <a class="play" >
+                                    <img class="img-fluid" src="./images/thumbnail_3.jpg"
+                                        alt="" />
+                                </a>
+                            </div>
+                            <h5 class="card-title font-weight-bold">Sad Smile</h5>
+                            <p class="card-text">
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                            </p>
+                            <!-- VIDEO REVIEWER -->
+                            <div class="row mb-3">
+                                <div class="col-3 user_review">
+                                    <img class="rounded-circle img-fluid " src="./images/profile_1.jpg" />
+                                </div>
+                                <div class="col-9 d-lg-flex justify-content-lg-start align-items-lg-center">
+                                    <span class="highlight_text1 font-weight-bold">Phillip Massey</span>
+                                </div>
+                            </div>
+                            <!-- VIDEO CALIFICATION -->
+                            <div class="row text-center">
+                                <div class="col-7">
+                                    <div class="d-flex justify-content-lg-center">
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_off.png" />
+                                    </div>
+
+                                </div>
+                                <div class="col-5">
+                                    <span class="highlight_text1 font-weight-bold">8 min</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-12 mb-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="">
+                                <a class="play">
+                                    <img class="img-fluid" src="./images/thumbnail_1.jpg"
+                                        alt="" />
+                                </a>
+                            </div>
+                            <h5 class="card-title font-weight-bold">Natural Smile</h5>
+                            <p class="card-text">
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                            </p>
+                            <!-- VIDEO REVIEWER -->
+                            <div class="row mb-3">
+                                <div class="col-3 user_review">
+                                    <img class="rounded-circle img-fluid " src="./images/profile_1.jpg" />
+                                </div>
+                                <div class="col-9 d-lg-flex justify-content-lg-start align-items-lg-center">
+                                    <span class="highlight_text1 font-weight-bold">Phillip Massey</span>
+                                </div>
+                            </div>
+                            <!-- VIDEO CALIFICATION -->
+                            <div class="row text-center">
+                                <div class="col-7">
+                                    <div class="d-flex justify-content-lg-center">
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_off.png" />
+                                    </div>
+
+                                </div>
+                                <div class="col-5">
+                                    <span class="highlight_text1 font-weight-bold">8 min</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-12 mb-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="">
+                                <a class="play">
+                                    <img class="img-fluid" src="./images/thumbnail_2.jpg"
+                                        alt="" />
+                                </a>
+                            </div>
+                            <h5 class="card-title font-weight-bold">Happy Smile</h5>
+                            <p class="card-text"></p>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                            </p>
+                            <!-- VIDEO REVIEWER -->
+                            <div class="row mb-3">
+                                <div class="col-3 user_review">
+                                    <img class="rounded-circle img-fluid " src="./images/profile_1.jpg" />
+                                </div>
+                                <div class="col-9 d-lg-flex justify-content-lg-start align-items-lg-center">
+                                    <span class="highlight_text1 font-weight-bold">Phillip Massey</span>
+                                </div>
+                            </div>
+                            <!-- VIDEO CALIFICATION -->
+                            <div class="row text-center">
+                                <div class="col-7">
+                                    <div class="d-flex justify-content-lg-center">
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_off.png" />
+                                    </div>
+
+                                </div>
+                                <div class="col-5">
+                                    <span class="highlight_text1 font-weight-bold">8 min</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-12 mb-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="">
+                                <a class="play" >
+                                    <img class="img-fluid" src="./images/thumbnail_3.jpg"
+                                        alt="" />
+                                </a>
+                            </div>
+                            <h5 class="card-title font-weight-bold">Sad Smile</h5>
+                            <p class="card-text">
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                            </p>
+                            <!-- VIDEO REVIEWER -->
+                            <div class="row mb-3">
+                                <div class="col-3 user_review">
+                                    <img class="rounded-circle img-fluid " src="./images/profile_1.jpg" />
+                                </div>
+                                <div class="col-9 d-lg-flex justify-content-lg-start align-items-lg-center">
+                                    <span class="highlight_text1 font-weight-bold">Phillip Massey</span>
+                                </div>
+                            </div>
+                            <!-- VIDEO CALIFICATION -->
+                            <div class="row text-center">
+                                <div class="col-7">
+                                    <div class="d-flex justify-content-lg-center">
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_off.png" />
+                                    </div>
+
+                                </div>
+                                <div class="col-5">
+                                    <span class="highlight_text1 font-weight-bold">8 min</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-12 mb-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="">
+                                <a class="play">
+                                    <img class="img-fluid" src="./images/thumbnail_1.jpg"
+                                        alt="" />
+                                </a>
+                            </div>
+                            <h5 class="card-title font-weight-bold">Natural Smile</h5>
+                            <p class="card-text">
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                            </p>
+                            <!-- VIDEO REVIEWER -->
+                            <div class="row mb-3">
+                                <div class="col-3 user_review">
+                                    <img class="rounded-circle img-fluid " src="./images/profile_1.jpg" />
+                                </div>
+                                <div class="col-9 d-lg-flex justify-content-lg-start align-items-lg-center">
+                                    <span class="highlight_text1 font-weight-bold">Phillip Massey</span>
+                                </div>
+                            </div>
+                            <!-- VIDEO CALIFICATION -->
+                            <div class="row text-center">
+                                <div class="col-7">
+                                    <div class="d-flex justify-content-lg-center">
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_off.png" />
+                                    </div>
+
+                                </div>
+                                <div class="col-5">
+                                    <span class="highlight_text1 font-weight-bold">8 min</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-12 mb-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="">
+                                <a class="play">
+                                    <img class="img-fluid" src="./images/thumbnail_2.jpg"
+                                        alt="" />
+                                </a>
+                            </div>
+                            <h5 class="card-title font-weight-bold">Happy Smile</h5>
+                            <p class="card-text"></p>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                            </p>
+                            <!-- VIDEO REVIEWER -->
+                            <div class="row mb-3">
+                                <div class="col-3 user_review">
+                                    <img class="rounded-circle img-fluid " src="./images/profile_1.jpg" />
+                                </div>
+                                <div class="col-9 d-lg-flex justify-content-lg-start align-items-lg-center">
+                                    <span class="highlight_text1 font-weight-bold">Phillip Massey</span>
+                                </div>
+                            </div>
+                            <!-- VIDEO CALIFICATION -->
+                            <div class="row text-center">
+                                <div class="col-7">
+                                    <div class="d-flex justify-content-lg-center">
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_on.png" />
+                                        <img class="img-fluid " src="./images/star_off.png" />
+                                    </div>
+
+                                </div>
+                                <div class="col-5">
+                                    <span class="highlight_text1 font-weight-bold">8 min</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  </main>
+</body>
+
+</html>
